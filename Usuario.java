@@ -9,7 +9,7 @@ public class Usuario
 {
     // instance variables - replace the example below with your own
     private String nombre;
-    private String alimento:
+    private String alimento;
     private float gramos;
     /**
      * Constructor for objects of class Usuario
@@ -28,7 +28,7 @@ public class Usuario
      * @param  y   a sample parameter for a method
      * @return     the sum of x and y 
      */
-    public void comer(Alimento alimento,float gramos)
+    public void comer(alimentos alimento,float gramos)
     {
         // put your code here
         this.gramos=gramos;
