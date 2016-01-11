@@ -1,8 +1,20 @@
 #BlueJ class context
-comment0.params=nombre
+comment0.params=nombreCompleto
 comment0.target=Usuario(java.lang.String)
-comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Usuario\r\n
-comment1.params=alimento\ gramos
-comment1.target=void\ comer(alimentos,\ float)
-comment1.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ \r\n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \r\n
-numComments=2
+comment0.text=\r\nConstructor\ de\ la\ clase\ usuario\r\n
+comment1.params=alimentoQueCome\ gramosDelAlimento
+comment1.target=void\ comer(Alimento,\ float)
+comment1.text=\r\n\ Metodo\ utilizado\ para\ dar\ de\ comer\ al\ usuario\r\n
+comment2.params=
+comment2.target=java.lang.String\ getNombre()
+comment2.text=\r\n\ nos\ devuelve\ el\ nombre\r\n
+comment3.params=
+comment3.target=float\ getCalorias()
+comment3.text=\r\n\r\n\ Nos\ devuelve\ las\ calor\u00EDas\ que\ tiene\ el\ alimento\r\n
+comment4.params=
+comment4.target=void\ muestraDatos()
+comment4.text=\r\n\ Metodo\ que\ muestra\ la\ informacion\ de\ lo\ ingerido\ por\ el\ usuario.\r\n
+comment5.params=usuario2
+comment5.target=void\ compara(Usuario)
+comment5.text=\r\n\ Metodo\ para\ comparar\ dos\ ususarios\ \r\n
+numComments=6

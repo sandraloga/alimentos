@@ -1,6 +1,6 @@
 #BlueJ package file
 dependency1.from=Usuario
-dependency1.to=alimentos
+dependency1.to=Alimento
 dependency1.type=UsesDependency
 objectbench.height=100
 objectbench.width=353
@@ -35,7 +35,7 @@ target2.editor.width=1382
 target2.editor.x=-8
 target2.editor.y=-8
 target2.height=50
-target2.name=alimentos
+target2.name=Alimento
 target2.naviview.expanded=true
 target2.showInterface=false
 target2.type=ClassTarget
