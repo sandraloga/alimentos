@@ -34,6 +34,30 @@ public class Usuario
         grasasIngeridas = grasasIngeridas + (alimentoQueCome.getGrasas() / 100 * gramosDelAlimento);
         caloriasIngeridas = caloriasIngeridas + (alimentoQueCome.getCalorias() / 100 * gramosDelAlimento);
     }
+    /**
+     * metodo para visualiar por pantallaa el alimento mas calorico ingerido por el usuarios
+     */
+    public void masCalorias(Usuario caloriasIngeridas2)
+    {
+        if (caloriasIngeridas != caloriasIngeridas2.getCalorias())
+        {
+            if (caloriasIngeridas > caloriasIngeridas2.getCalorias())
+             {
+                System.out.println("Alimento mas calorico por este usuario hasta el momento:" + nombreCompleto +" (" + caloriasIngeridas + " calorias por cada 100 gr.");
+             }
+            else
+              {
+        
+               System.out.println("Alimento mas calorico por este usuario hasta el momento" + caloriasIngeridas2.getNombre()+ " (" + caloriasIngeridas2.getCalorias() + " calorias por cada 100 gr.");
+              }
+        }
+         else {
+           System.out.println ("Alimento mas calorico por este usuario hasta el momento" + caloriasIngeridas2.getNombre()+ " (" + caloriasIngeridas2.getCalorias() + " calorias por cada 100 gr.");  
+        } 
+    }
+     
+    
+    
     
     /**
      * nos devuelve el nombre

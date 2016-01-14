@@ -59,7 +59,7 @@ public class Alimento
     {
         return calorias;
     }
-
+   
     /**
      * Este método nos muestra los valores de los distintos componentes del alimento 
      */
