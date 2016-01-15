@@ -43,6 +43,14 @@ public class Alimento
     {
         return grasas;
     }
+    /**
+     * Nos devuelve el nombre
+     */
+    
+    public String getNombre()
+    {
+      return nombre;
+    }
     
     /**
      * Nos devuelve los gramos de carbohidratos que tiene el alimento
